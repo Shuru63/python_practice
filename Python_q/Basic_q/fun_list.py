@@ -16,6 +16,7 @@ n=[54,'dfg',548]
 lis.append(n)
 print(lis)
 
+
 m=[454,'dfghfg',8]
 lis.extend(m)
 print(lis)

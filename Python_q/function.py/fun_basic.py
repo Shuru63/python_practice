@@ -16,6 +16,7 @@ def default(n1,n2=40):
     print("the N1 is :",n1)
     print("the N2 is :",n2)
     print(n1+n2)
+    
 
 d=default(20,30)
 e=default(20)
