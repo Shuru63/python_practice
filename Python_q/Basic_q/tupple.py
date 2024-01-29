@@ -13,5 +13,6 @@ s=sum(t)
 print(m)
 print(n)
 print(count)
+
 print(idx)
 print(s)
