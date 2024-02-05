@@ -1,0 +1,47 @@
+import numpy as np
+var1=np.array([1,2,3,4,5,6,7,8,9])
+var2=np.array([11,12,13,14,15,16,17,18,19])
+print("\n print number using arthemitic opertater\n")
+print("the sum of ",var1," + ",var2 ,"  = ",var1+var2)
+print("the subtract of ",var1," - ",var2 ,"  = ",var1-var2)
+print("the multiply of ",var1," * ",var2 ,"  = ",var1*var2)
+print("the divide of ",var1," / ",var2 ,"  = ",var1/var2)
+print("the modulus of ",var1," * ",var2 ,"  = ",var1%var2)
+print("the power of ",var1," ** ",var2 ,"  = ",var1**var2)
+print("\n print number using arthemitic function\n")
+
+var3=np.array([19,12,11,18,14,15,13,16,17])
+add=np.add(var1,var3)
+sub=np.subtract(var1,var3)
+mul=np.multiply(var1,var3)
+div=np.divide(var1,var3)
+mod=np.mod(var1,var3)
+pow=np.power(var1,var3)
+reci=np.reciprocal(var1,var3)
+
+print("the sum of ",var1," + ",var3 ,"  = ",add)
+print("the subtract of ",var1," - ",var3 ,"  = ",sub)
+print("the multiply of ",var1," * ",var3 ,"  = ",mul)
+print("the divide of ",var1," / ",var3 ,"  = ",div)
+print("the modulus of ",var1," % ",var3 ,"  = ",mod)
+print("the power of ",var1," ** ",var3 ,"  = ",pow)
+print("the reciprocal of ",var1," & ",var3 ,"  = ",reci)
+
+var4=np.array([19,12,11,18,14,15,13,16,17])
+print("other function of numpy")
+maximum=np.max(var4)
+minimum=np.min(var4)
+sorting=np.sort(var4)
+position=np.arange(10)
+print("the maximum number of ",var4,"  = ",maximum)
+print("the minimum number of ",var4,"  = ",minimum)
+print("the sorting  of number ",var4,"  = ",sorting)
+print("the position  of number ",var4,"  = ",position)
+
+
+# 2d array 
+v2d=np.array([[19,12],[11,18],[14,15],[13,16],[17,45]])
+v2d1=np.array([[18,16],[14,11],[13,12],[10,9],[7,25]])
+
+toDadd=np.add(v2d,v2d1)
+print("the sum of ",v2d," + ",v2d1 ,"  = ",toDadd)
